@@ -41,7 +41,7 @@
     color: white;
 }
 
-.heroes button.selected:hover {
+.heroes button .selected:hover {
     background-color: #505050;
     color: white;
 }

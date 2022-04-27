@@ -11,9 +11,11 @@ export class HeroesComponent implements OnInit {
   
   heroes = HEROES
   selectedHero?:Hero
+  popino = "un doggy"
 
   onSelect(hero:Hero): void {
     this.selectedHero = hero
+    this.popino = "ahora soy un cat"
   }
   
 
